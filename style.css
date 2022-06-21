@@ -1,0 +1,65 @@
+body{margin: 0;
+    font-family: 'Noto Sans Kr',sans-serif;
+    height: 2000px;    
+}
+
+section{
+    width:100%;
+    height:100vh;
+    text-align: center;
+}
+
+.wrapper{max-width: 1200px;
+    margin: auto;
+    padding: 100px;
+}
+
+h1{
+    color:skyblue;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size:24px;
+    font-weight: 300;
+}
+
+.btns{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top:0;
+}
+
+.btns .container{
+    position: relative;
+    max-width: 900px;
+    padding: 20px;
+    background-color: black;
+    margin: auto;
+
+}
+
+.btns_menu{display: flex; justify-content: center;}
+
+.btns_menu .btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #193a40;
+    border:1px solid #4d7f8c;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: skyblue;
+
+}
+
+.btns_menu .btn:hover{background-color: white;
+
+}
